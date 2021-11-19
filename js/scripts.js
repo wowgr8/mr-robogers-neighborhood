@@ -1,4 +1,5 @@
 function mrRoboto(number) {
-  const replaceableNumbers = [1,2,3];
+  let inputArray = [];
+  const replaceableNumbers = [1];
   return number;
 }
