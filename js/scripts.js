@@ -1,5 +1,12 @@
 function mrRoboto(number) {
   let inputArray = [];
-  const replaceableNumbers = [1];
-  return number;
+  for (let i = 0; i <= number; i ++) {
+    const endResult = i.toString();
+    if (endResult.includes(1)) {
+      inputArray.push("Beep!")
+  } else {
+    inputArray.push(endResult)
+  }
+  }
+  return inputArray;
 }

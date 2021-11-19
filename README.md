@@ -5,7 +5,7 @@ Code:
 mrRoboto(0);
 Expected Output: 0
 
-Test: "If the number one is inputted, it will be replaced with "Beep!"."
+Test: "If the number one is inputted, "Beep!" will be returned."
 Code:
 mrRoboto(1);
 Expected Output: Beep!
