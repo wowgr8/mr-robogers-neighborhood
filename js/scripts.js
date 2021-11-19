@@ -6,6 +6,8 @@ function mrRoboto(number) {
       inputArray.push("Beep!")
     } else if (endResult.includes(2)) {
     inputArray.push("Boop!")
+    } else if (endResult.includes(3)) {
+      inputArray.push("Won't you be my neighbor")
     } else {
     inputArray.push(endResult)
     }
