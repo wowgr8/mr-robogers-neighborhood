@@ -4,9 +4,11 @@ function mrRoboto(number) {
     const endResult = i.toString();
     if (endResult.includes(1)) {
       inputArray.push("Beep!")
-  } else {
+    } else if (endResult.includes(2)) {
+    inputArray.push("Boop!")
+    } else {
     inputArray.push(endResult)
-  }
+    }
   }
   return inputArray;
 }
