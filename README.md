@@ -19,3 +19,8 @@ Test: "If the number three is entered, "Won't you be my neighbor" will be return
 Code:
 mrRoboto(3);
 Expected Output: "Won't you be my neighbor"
+
+Test: "The numbers above will take presedence from largest to smallest by rearanging if/else order."
+Code:
+mrRoboto(13);
+Expected Output: ....'9', 'Beep!', 'Beep!', 'Boop!', "Won't you be my neighbor"
