@@ -6,12 +6,12 @@ function mrRoboto(number) {
     const endResult = i.toString();
     if (endResult.includes(3)) {
       inputArray.push("Won't you be my neighbor")
-    } else if (endResult.includes(2)) {
-    inputArray.push("Boop!")
+    } else if (endResult.includes(2)) { 
+      inputArray.push("Boop!")
     } else if (endResult.includes(1)) {
       inputArray.push("Beep!")
     } else {
-    inputArray.push(endResult)
+      inputArray.push(endResult)
     }
   }
   return inputArray;
