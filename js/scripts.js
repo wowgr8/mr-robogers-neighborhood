@@ -1,3 +1,5 @@
+//Business Logic
+
 function mrRoboto(number) {
   let inputArray = [];
   for (let i = 0; i <= number; i ++) {
@@ -14,3 +16,19 @@ function mrRoboto(number) {
   }
   return inputArray;
 }
+
+
+
+
+
+// UI Logic
+
+$(document).ready(function() {
+  $("#userInput").submit(function(event) {
+    event.preventDefault();
+    let info = $("#numberEntry").val();
+    const newCourse = mrRoboto(info)
+    $("#beepBoopResult").text(newCourse)
+    $("#beepBoopOutput").show();
+  });
+});
