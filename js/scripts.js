@@ -17,10 +17,6 @@ function mrRoboto(number) {
   return inputArray;
 }
 
-
-
-
-
 // UI Logic
 
 $(document).ready(function() {
