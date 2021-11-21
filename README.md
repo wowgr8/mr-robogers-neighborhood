@@ -40,10 +40,13 @@ This website will return a string from 0 up to the number you enter. It will als
 
 ## Tests ##
 
-** Describe: mrRoboto() **
+
 
 <details>
 <summary>Click to see!</summary>
+
+**Describe: mrRoboto()**
+
 ```
 Test: "It should return an array with 0 if the number 0 is inputted."
 Code:
