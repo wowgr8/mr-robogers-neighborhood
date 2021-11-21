@@ -21,7 +21,7 @@ This website will return a string from 0 up to the number you enter. It will als
 2. Copy and enter this command:
 
 ```
-  ** git clone https://github.com/wowgr8/mr-robogers-neighborhood **
+  git clone https://github.com/wowgr8/mr-robogers-neighborhood
 ```
 
 3. Enter the following command:
@@ -38,8 +38,7 @@ This website will return a string from 0 up to the number you enter. It will als
 
 [MIT](https://opensource.org/license/MIT)
 
-## Tests ##
-
+## Specs ##
 
 
 <details>
