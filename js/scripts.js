@@ -5,13 +5,13 @@ function mrRoboto(number) {
   for (let i = 0; i <= number; i ++) {
     const endResult = i.toString();
     if (endResult.includes(3)) {
-      inputArray.push("Won't you be my neighbor")
+      inputArray.push(" Won't you be my neighbor")
     } else if (endResult.includes(2)) { 
-      inputArray.push("Boop!")
+      inputArray.push(" Boop!")
     } else if (endResult.includes(1)) {
-      inputArray.push("Beep!")
+      inputArray.push(" Beep!")
     } else {
-      inputArray.push(endResult)
+      inputArray.push(" " +  endResult)
     }
   }
   return inputArray;
