@@ -20,15 +20,15 @@ This website will return a string from 0 up to the number you enter. It will als
 
 2. Copy and enter this command:
 
-  ...
+...
   ** git clone https://github.com/wowgr8/mr-robogers-neighborhood **
-  ...
+...
 
 3. Enter the following command:
 
-  ...
+...
   open index.html
-  ...
+...
 
 ## Known Bugs ##
 
@@ -42,6 +42,8 @@ This website will return a string from 0 up to the number you enter. It will als
 
 ** Describe: mrRoboto() **
 
+<details>
+  <summary>Click to see!</summary>
 ...
 Test: "It should return an array with 0 if the number 0 is inputted."
 Code:
@@ -76,8 +78,13 @@ Code:
 mrRoboto(13);
 Expected Output: ....'9', 'Beep!', 'Beep!', 'Boop!', "Won't you be my neighbor"
 ...
+</details>
 
 ## Contact Info ##
 
 Cesar Lopez <Lopez.cesar.aug@gmail.com>
 Github: https://github.com/wowgr8
+
+
+
+
