@@ -85,8 +85,8 @@ Expected Output: ....'9', 'Beep!', 'Beep!', 'Boop!', "Won't you be my neighbor"
 
 ## Contact Info ##
 
-Cesar Lopez <Lopez.cesar.aug@gmail.com>
-Github: https://github.com/wowgr8
+* Cesar Lopez <Lopez.cesar.aug@gmail.com>
+* Github: https://github.com/wowgr8
 
 
 
